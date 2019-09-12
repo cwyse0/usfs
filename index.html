@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<style>
+
+html,body{
+  width: 100%;
+  height: 100%;
+    position:fixed;
+    overflow:hidden;
+}
+
+button{
+position: fixed;
+bottom: 5%;
+right: 25%;
+width: 10%;
+height: 5%;
+
+  background-color: #38a800; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: #3e8e41;
+  cursor: pointer;
+}
+
+</style>
+
+<div>
+<button class="rbut" value="Refresh Page" onClick="window.location.href=window.location.href"> Update the Map </button>
+</div>
+
+<iframe src="https://survey123.arcgis.com/share/120577da79b0420ba865e6166f7be92a" frameborder="0" scrolling="yes"                           
+                                style="height: 100%; 
+                                            width: 40%; float: left; " height="100%" width="49%"
+                               align="left">
+                              </iframe>  
+
+ <iframe src="https://usfs.maps.arcgis.com/apps/webappviewer/index.html?id=9d6d4762b46c4361b0d4c4a3f8f2d3e9" frameborder="0" scrolling="no"  
+                                    style="overflow: hidden; height: 100%;
+
+                                    width: 60%; " height="100%" width="49%"                                 
+                                     align="right">
+                                    </iframe>
+
+
+
+</body>
+</html>
